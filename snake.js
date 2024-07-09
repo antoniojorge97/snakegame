@@ -30,7 +30,7 @@ export function expandSnake(amount) {
   newSegments += amount;
   foodCount += 1;
   if (foodCount == 3) {
-    return [confirm("Amo-te muito!"), (window.location = "/")];
+    return [confirm("Amo-te muito!")];
   }
 }
 
